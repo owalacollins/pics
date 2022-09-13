@@ -25,6 +25,7 @@
 }
 .everything{
     background-color: rgba(0, 0, 0, 0.582);
+    height:70vh;
 }
 .p{
     text-align: center;
@@ -113,7 +114,7 @@ input,textarea{
 
 footer{
     background-color: bisque;
-    height: 40vh;
+    min-height:60vh ;
     clear: both;
  }
  .social{
