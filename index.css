@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-image: url(image10.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.page{
+    background-color: chocolate;
+}
+.h2{
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', cursive;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+   
+}
+.everything{
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.p{
+    text-align: center;
+    margin: 0 auto;
+    width: 60vw;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    padding: 5px 20px;
+    border: 1px white solid;
+    background-color: transparent;
+    color: rgb(43, 255, 0);
+    display: block;
+    margin: 40px auto;
+}
+.responsive{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 3px;
+}
+.coll-grid{
+    flex: 15%;
+    max-width: 50%;
+    padding: 0px 5px;
+}
+
+img{
+    width: 100%;
+}
+.links{
+    width: 100%;
+ 
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 7vh;
+}
+li{
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+
+}
+li a{
+    color: rgb(255, 255, 255);
+}
+.input{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input,textarea{
+    padding: 5px 20px;
+ 
+    border: 2px solid rgb(0, 0, 0);
+    background-color: transparent;
+    color: aqua;
+    display: block;
+    margin:  10px auto;
+}
+.desc{
+    min-height: 70vh;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* footer */
+
+footer{
+    background-color: bisque;
+    height: 40vh;
+    clear: both;
+ }
+ .social{
+    display: flex;
+    justify-content:center;
+ }
+ .social h6{
+    color: rgb(167, 167, 167);
+    font-size: 25px;
+    margin-left:20px;
+ }
+ footer h5{
+    text-align: center;
+    color: rgb(67, 68, 70);
+ }
